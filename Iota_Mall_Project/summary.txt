@@ -1,0 +1,39 @@
+visualization pane -format pane tab - bar -color fx -gradients - value as number
+
+For most visuals, you access conditional formatting through the Format pane:
+
+Select the visual you want to format.
+In the Visualizations pane, select the Format visual icon (paint brush).
+Expand the formatting card for the element you want to format (such as Columns for a column chart).
+Look for the fx button next to the color or formatting option.
+Select the fx button to open the conditional formatting dialog.
+Screenshot of the Colors card under Columns showing the fx button for conditional formatting.  
+
+
+Use the right-click menu for tables and matrices
+For tables and matrices, you can also access conditional formatting by right-clicking on a field:
+
+Select a Table or Matrix visualization.
+In the Visualizations pane, right-click or select the down-arrow next to the field you want to format.
+Select Conditional formatting, then choose the type of formatting to apply.
+For detailed instructions on table and matrix conditional formatting, see Apply conditional formatting in tables and matrices.
+
+Format styles
+Power BI offers three format styles for conditional formatting. Each style provides a different way to map your data values to visual formatting.
+
+Gradient
+Gradient formatting applies a color scale that visually represents the range of values. This style helps you quickly understand the distribution and magnitude of data.
+
+Define Minimum and Maximum colors for the lowest and highest values.
+Optionally add a Center color for a diverging color scale.
+Choose whether to base the gradient on the lowest and highest field values or custom values you specify.
+Gradient formatting works well for continuous numeric data where you want to show relative differences across a range of values.
+When formatting fields that contain percentages, enter rule values as decimals (such as 0.25 for 25%) and select Number for the format, not Percent.
+
+rules
+Rules-based formatting applies specific colors based on conditions you define. This style is useful when you want to categorize data into discrete groups.
+
+Create one or more rules with value ranges.
+Assign a specific color to each rule.
+Use percentage-based rules or number-based rules depending on your needs.
+For example, you might use rules to color sales data green for values that exceed a target, yellow for values close to the target, and red for values that fall short of the target.

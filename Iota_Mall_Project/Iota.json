@@ -1,0 +1,142 @@
+{
+  "name": "IOTA Theme",
+  "dataColors": [
+    "#0E4A67",
+    "#F28C28",
+    "#08354A",
+    "#3A7CA5",
+    "#F5A65B",
+    "#1B6B93"
+  ],
+  "background": "#F5F6F7",
+  "foreground": "#1F1F1F",
+  "tableAccent": "#F28C28",
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E0E0E0"
+              }
+            },
+            "radius": 10
+          }
+        ],
+        "title": [
+          {
+            "fontSize": 14,
+            "fontFamily": "Segoe UI Semibold",
+            "color": {
+              "solid": {
+                "color": "#0E4A67"
+              }
+            }
+          }
+        ],
+        "shadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "blur": 10,
+            "angle": 45,
+            "distance": 5,
+            "transparency": 80
+          }
+        ]
+      }
+    },
+
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1F1F1F"
+              }
+            },
+            "fontSize": 18
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0E4A67"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridHorizontal": true,
+            "outlineColor": {
+              "solid": {
+                "color": "#E0E0E0"
+              }
+            }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "color": {
+              "solid": {
+                "color": "#0E4A67"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "fontSize": 12,
+            "color": {
+              "solid": {
+                "color": "#1F1F1F"
+              }
+            }
+          }
+        ],
+        "selection": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F28C28"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
